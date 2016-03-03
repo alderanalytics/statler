@@ -8,4 +8,4 @@ RUN go install -v github.com/alderanalytics/statler
 
 CMD ["statler", "serve"]
 
-EXPOSE 5354
+EXPOSE 5354/udp

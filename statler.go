@@ -90,7 +90,7 @@ func main() {
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:        "bindAddress",
-			Value:       "0.0.0.0:5354",
+			Value:       ":5354",
 			Usage:       "bind address for metrics collection",
 			EnvVar:      "STATLER_BIND_ADDRESS",
 			Destination: &cfgBindAddress,
